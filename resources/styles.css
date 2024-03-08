@@ -2,19 +2,47 @@ body {
     background-color: white;
 }
 
-#neutralinoapp {
-    text-align: center;
-    -webkit-user-select: none;
-    user-select: none;
-    cursor: default;
+#TitleWrapper {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 35%;
+}
+#TitleWrapper > img {
+    height: 20vw;
+    /*margin-top: 2vw;
+    margin-left: 2vw;*/
 }
 
-#neutralinoapp h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+#noConnexion {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    bottom: 15%;
 }
 
-#neutralinoapp > div {
-    font-size: 16px;
-    font-weight: normal;
+#withoutConnexionButton {
+    width: 20vw;
+    height: calc(20vw/5);
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    border-radius: 1vw;
+}
+
+#tkunihubConnexion {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    bottom: 25%;
+}
+
+#tkunihubConnexionButton {
+    width: 30vw;
+    height: calc(30vw/5);
+    font-size: 2.25vw;
+    font-family: sans-serif;
+    color: black;
+    border-radius: 1vw;
+    background: rgb(255,115,0);
+    background: linear-gradient(90deg, rgba(255,115,0,0.42510291916167664) 10%, rgba(255,243,0,0.3921687874251497) 42%, rgba(255,0,124,0.31432447604790414) 65%, rgba(167,36,255,0.40115082335329344) 88%);
 }
